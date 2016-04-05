@@ -22,6 +22,7 @@
 		39C1F2EF1C4B2C6E00399275 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C1F2EE1C4B2C6E00399275 /* Filter.swift */; };
 		39E13E461C4C2E9300191DF3 /* FilterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E13E451C4C2E9300191DF3 /* FilterSpec.swift */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C486E07A1CB3981C00DC85B8 /* OrderBy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486E0791CB3981C00DC85B8 /* OrderBy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B76EE5BECEE6FB90F0B695A3 /* Pods-SwiftyDB_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDB_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDB_Tests/Pods-SwiftyDB_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C486E0791CB3981C00DC85B8 /* OrderBy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderBy.swift; sourceTree = "<group>"; };
 		DA2501680ADFCB6495E0B154 /* Pods_SwiftyDB_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyDB_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0AFA9C610EA49C03F6F181 /* Pods-SwiftyDB_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyDB_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyDB_Tests/Pods-SwiftyDB_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,6 +77,7 @@
 		398E03731C2839FB003A868B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C486E0791CB3981C00DC85B8 /* OrderBy.swift */,
 				398E03751C2839FB003A868B /* SwiftyDB.swift */,
 				395202B61C46E20200BF5871 /* SwiftyDB+Asynchronous.swift */,
 				39C1F2EE1C4B2C6E00399275 /* Filter.swift */,
@@ -289,6 +292,7 @@
 				398E03791C2839FB003A868B /* SwiftyDB.swift in Sources */,
 				398E037A1C2839FB003A868B /* PropertyData.swift in Sources */,
 				39E13E461C4C2E9300191DF3 /* FilterSpec.swift in Sources */,
+				C486E07A1CB3981C00DC85B8 /* OrderBy.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

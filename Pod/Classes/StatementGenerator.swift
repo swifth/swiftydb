@@ -90,6 +90,28 @@ internal class StatementGenerator {
         return statement
     }
     
+    internal class func selectStatementForType(type: Storable.Type, matchingFilter filter: Filter?, orderBy: OrderBy?) -> String {
+        
+        let tableName =  tableNameForType(type)
+        
+        var statement = "SELECT ALL * FROM \(tableName)"
+        
+        guard filter != nil else {
+            return statement
+        }
+        
+        statement += " " + filter!.whereStatement()
+        
+        guard orderBy != nil else {
+            return statement
+        }
+        
+        statement += " " + orderBy?.statement()
+        
+        return statement
+    }
+    
+    
     internal class func deleteStatementForType(type: Storable.Type, matchingFilter filter: Filter?) -> String {
         
         let tableName =  tableNameForType(type)
