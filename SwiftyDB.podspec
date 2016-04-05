@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "SwiftyDB"
+  s.name             = "SwifthDB"
   s.version          = "1.1.0"
   s.summary          = "Making SQLite databases a blast"
 
